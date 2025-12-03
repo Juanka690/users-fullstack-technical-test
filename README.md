@@ -45,3 +45,33 @@ Endpoints de ejemplo:
 
 - Detalle de usuario:  
   `GET https://users-backend-pmob.onrender.com/api/users/:id`
+
+---
+
+## 🚀 Ejecutar el Backend en Local
+
+Sigue estos pasos para levantar el backend usando Node.js, Express y Prisma, conectado directamente a la base de datos de Neon.
+
+### 1. Entrar a la carpeta del backend
+
+```bash
+cd backend
+
+npm install
+
+npx prisma generate
+
+npm run dev
+```
+
+### 2. Entrar a la carpeta del frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Luego edita .env y coloca el DATABASE_URL de Neon y el CORS_ORIGIN adecuado.
