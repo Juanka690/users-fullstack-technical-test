@@ -19,3 +19,29 @@ Repositorio con estructura tipo monorepo:
 users-fullstack-technical-test/
   backend/    → API REST (Node.js, Express, TypeScript, Prisma)
   frontend/   → SPA (React, TypeScript, Vite)
+```
+
+---
+
+## 🌍 Despliegue en producción
+
+El proyecto está desplegado en Render (frontend + backend) con base de datos PostgreSQL en Neon.
+
+- **Frontend (React + Vite)**  
+  URL pública:  
+  👉 https://users-frontend-qytg.onrender.com
+
+- **Backend (Node.js + Express + Prisma)**  
+  URL base de la API:  
+  👉 https://users-backend-pmob.onrender.com/api
+
+Endpoints de ejemplo:
+
+- Healthcheck:  
+  `GET https://users-backend-pmob.onrender.com/api/health`
+
+- Listado paginado de usuarios:  
+  `GET https://users-backend-pmob.onrender.com/api/users?page=1&pageSize=10`
+
+- Detalle de usuario:  
+  `GET https://users-backend-pmob.onrender.com/api/users/:id`
