@@ -9,7 +9,7 @@
     "start": "node dist/server.js",
     "prisma:generate": "npx prisma generate",
     "prisma:migrate:dev": "npx prisma migrate dev",
-    "prisma:migrate:deploy": "npx prisma migrate deploy --schema=./prisma/schema.prisma"
+    "prisma:migrate:deploy": "npx prisma migrate deploy --schema= prisma/schema.prisma"
   },
   "keywords": [],
   "author": "",
