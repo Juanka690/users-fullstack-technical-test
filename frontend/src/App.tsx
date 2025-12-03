@@ -19,7 +19,7 @@ interface ToastState {
     message: string;
 }
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 5;
 
 function App() {
     const [theme, setTheme] = useState<Theme>("dark");
